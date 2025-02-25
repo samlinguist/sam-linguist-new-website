@@ -64,9 +64,27 @@
       Studio: sam.d.linguist@gmail.com
     </paragraph>
     <br><br>
-   <form class="link-text" action="submit.php" method="post"> 
-  <label for="email">Email Address:</label>
-  <input type="email" id="email" name="email" required> 
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+</head>
+<body>
+
+<h2>join mailing list</h2>
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
   <br>
-  <button class="link-text" type="submit">add to mailing list</button> 
-</form> 
+ 
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <br>
+ 
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+  <br>
+ 
+  <button type="submit">Send</button>
+</form>
+
+</body>
